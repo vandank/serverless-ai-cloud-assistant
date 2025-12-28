@@ -1,0 +1,5 @@
+Amazon EC2 provides scalable virtual machines in the AWS cloud.
+Users have full control over the operating system and instance configuration.
+EC2 offers multiple instance types for different workload needs.
+It supports on-demand, reserved, and spot pricing models.
+EC2 is suitable for applications requiring full infrastructure control.

@@ -1,0 +1,5 @@
+AWS Bedrock is a managed service that provides access to foundation models via APIs.
+It supports models from providers like Anthropic and Amazon Titan.
+Bedrock enables building generative AI applications without infrastructure management.
+Customer data is not used to train models by default.
+It is commonly used for chatbots, summarization, and RAG pipelines.

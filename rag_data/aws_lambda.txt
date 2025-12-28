@@ -1,0 +1,5 @@
+AWS Lambda is a serverless compute service that runs code without managing servers.
+It automatically scales in response to events and charges only for execution time.
+Lambda supports multiple languages such as Python, Java, and Node.js.
+It is commonly triggered by API Gateway, S3, DynamoDB, and EventBridge.
+Lambda is ideal for event-driven, microservice, and backend workloads.
