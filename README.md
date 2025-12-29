@@ -78,7 +78,8 @@ Lambda → Amazon S3 → retrieve relevant knowledge base chunks
 Observability:  
 Lambda → CloudWatch Logs
 
-> Architecture diagram: `docs/architecture.png`
+> Architecture diagram: 
+![Architecture Diagram](docs/architecture.png)
 
 ---
 
@@ -173,6 +174,13 @@ Invoke-RestMethod `
   -Headers @{ "Content-Type" = "application/json"; "x-api-key" = "<YOUR_API_KEY>" } `
   -Body (@{prompt="What is AWS Lambda?"} | ConvertTo-Json)
 ```
+![API Test](docs/api-test.png)
+
+---
+
+#### UI Preview
+![UI Screenshot](docs/ui.png)
+
 ---
 
 ## Known Limitations
