@@ -140,11 +140,11 @@ Now, test it locally with using API as well as without providing the API key. Th
 
 TEST with API:
 Invoke-RestMethod `
-  -Uri "https://84f1uy22v5.execute-api.us-east-1.amazonaws.com/Prod/hello/" `
+  -Uri "https://YOUR-API/Prod/hello/" `
   -Method POST `
   -Headers @{
       "Content-Type" = "application/json"
-      "x-api-key"    = "8AA3khFnBp6Dm749L6UoL7fBW7jX6oDZledImKM1"
+      "x-api-key"    = "YOUR-API"
   } `
   -Body (@{
       prompt = "Explain AWS Lambda in one sentence."
@@ -291,8 +291,8 @@ Step 3: Install Material UI
 >> npm install @mui/icons-material
 
 Step 4: Create a .env file in frontend/rag-chat-ui/ and the following content in this file:
-VITE_API_URL=https://84f1uy22v5.execute-api.us-east-1.amazonaws.com/Prod/hello/
-VITE_API_KEY=8AA3khFnBp6Dm749L6UoL7fBW7jX6oDZledImKM1
+VITE_API_URL=https://YOUR-API/Prod/hello/
+VITE_API_KEY=YOUR-API
 
 Also, go to .gitignore and make sure this exists:
 .env
